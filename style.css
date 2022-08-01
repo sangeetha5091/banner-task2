@@ -219,6 +219,54 @@ main {
   text-align: center;
   padding: 30px 30px 20px 30px;
 }
+.i_icon {
+  color: rgba(0, 0, 0, 0.678);
+}
+.apple_icon {
+  font-size: 26px;
+  margin-left: -20px;
+}
+.winebottle_icon {
+  font-size: 26px;
+  margin-left: -20px;
+  margin-right: -10px;
+}
+.mobile_icon {
+  font-size: 30px;
+  margin-right: 10px;
+}
+.tv_icon {
+  font-size: 70px;
+  margin-top: 30px;
+}
+.dollar_icon {
+  font-size: 60px;
+  margin-top: 5px;
+  margin-top: 0;
+}
+.shield_icon {
+  font-size: 30px;
+  margin-left: 10px;
+}
+.smoking_icon {
+  margin: 0 50px 10px 20px;
+}
+.fries_icon {
+  color: #f8c330;
+  font-size: 70px;
+  margin-top: 15px;
+}
+.cocktail_icon {
+  color: #f55454;
+  font-size: 50px;
+  margin-bottom: 16px;
+}
+.bicycle_icon {
+  color: #f55454;
+  font-size: 90px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
 @media (max-width: 1350px) {
   body {
     padding: 100px 60px;
@@ -227,6 +275,9 @@ main {
 @media (max-width: 991px) {
   body {
     padding: 70px 20px;
+  }
+  .h1-b {
+    font-size: 30px;
   }
 }
 @media (max-width: 769px) {
@@ -244,6 +295,18 @@ main {
     flex-basis: 30%;
     padding: 0px 10px 20px 20px;
   }
+  .tv_icon {
+    font-size: 50px;
+    margin-top: 10px;
+  }
+  .bicycle_icon {
+    font-size: 86px;
+    margin-top: 2px;
+    margin-right: 10px;
+  }
+  .h1-b {
+    font-size: 30px;
+  }
 }
 @media (max-width: 567px) {
   .container_box {
@@ -251,7 +314,7 @@ main {
   }
   .heading h1 {
     color: #fc6060;
-    font-size: 50px;
+    font-size: 25px;
   }
   .circle_round {
     padding: 16px 16px;
@@ -261,5 +324,11 @@ main {
   }
   .circle_round i:nth-child(2) {
     font-size: 30px;
+  }
+  .h1-b {
+    font-size: 20px;
+  }
+  nav {
+    padding: 70px 0 40px 0;
   }
 }
